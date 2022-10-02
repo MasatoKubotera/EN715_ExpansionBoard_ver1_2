@@ -10797,7 +10797,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <part name="D10" library="CG0603MLC-05E" deviceset="CG0603MLC-05E" device=""/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
-<part name="M2" library="SparkFun SEN-15335" deviceset="SPARKFUN_SEN-15335" device=""/>
+<part name="M1" library="SparkFun SEN-15335" deviceset="SPARKFUN_SEN-15335" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
@@ -11103,7 +11103,7 @@ GPIO Pins</text>
 <attribute name="NAME" x="98.044" y="62.992" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.885" y="62.992" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="M2" gate="G$1" x="271.78" y="149.86" smashed="yes">
+<instance part="M1" gate="G$1" x="271.78" y="149.86" smashed="yes">
 <attribute name="NAME" x="271.78" y="165.1" size="1.27" layer="95" ratio="10" align="center"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="254" y="165.1" smashed="yes">
@@ -11266,11 +11266,11 @@ GPIO Pins</text>
 <segment>
 <pinref part="SUPPLY27" gate="G$1" pin="AGND"/>
 <wire x1="254" y1="142.24" x2="254" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="M2" gate="G$1" pin="GND1"/>
+<pinref part="M1" gate="G$1" pin="GND1"/>
 <wire x1="254" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="M2" gate="G$1" pin="GND2"/>
+<pinref part="M1" gate="G$1" pin="GND2"/>
 <wire x1="287.02" y1="144.78" x2="289.56" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY28" gate="G$1" pin="AGND"/>
 <wire x1="289.56" y1="144.78" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
@@ -11757,13 +11757,13 @@ GPIO Pins</text>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="M2" gate="G$1" pin="VIN1"/>
+<pinref part="M1" gate="G$1" pin="VIN1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="256.54" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="254" y1="147.32" x2="254" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="M2" gate="G$1" pin="VIN2"/>
+<pinref part="M1" gate="G$1" pin="VIN2"/>
 <wire x1="287.02" y1="157.48" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="157.48" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
@@ -11820,7 +11820,7 @@ GPIO Pins</text>
 <net name="MPU9250_CS" class="1">
 <segment>
 <pinref part="JP8" gate="G$1" pin="1"/>
-<pinref part="M2" gate="G$1" pin="CS"/>
+<pinref part="M1" gate="G$1" pin="CS"/>
 <wire x1="256.54" y1="157.48" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="157.48" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
@@ -11831,7 +11831,7 @@ GPIO Pins</text>
 </net>
 <net name="IMU_SCL/SCLK" class="1">
 <segment>
-<pinref part="M2" gate="G$1" pin="SCL/SCLK"/>
+<pinref part="M1" gate="G$1" pin="SCL/SCLK"/>
 <wire x1="256.54" y1="152.4" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
@@ -11845,7 +11845,7 @@ GPIO Pins</text>
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="170.18" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="M2" gate="G$1" pin="SDA/SDI"/>
+<pinref part="M1" gate="G$1" pin="SDA/SDI"/>
 <wire x1="256.54" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
@@ -11975,7 +11975,7 @@ GPIO Pins</text>
 </net>
 <net name="IMU_AD0/SD0" class="1">
 <segment>
-<pinref part="M2" gate="G$1" pin="AD0/SD0"/>
+<pinref part="M1" gate="G$1" pin="AD0/SD0"/>
 <wire x1="256.54" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="170.18" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
